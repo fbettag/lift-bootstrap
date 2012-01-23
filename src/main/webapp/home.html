@@ -18,7 +18,7 @@
 						<div class="alert-actions"><button lift="Users.becomesuperuser"></button></div>
 					</div>
 					<br/><br/>
-					<p>For demo purpose, here you can always <button lift="Users.becomesuperuser"></button></p>
+					<p lift="Users.isnotprivileged">For demo purpose, here you can always <button lift="Users.becomesuperuser"></button></p>
 					<br/><br/>
 					<p lift="Users.isprivileged">To check out validations, try the forms over in the <a href="/customers">Customers</a> area.</p>
 				</div>
@@ -70,7 +70,7 @@
 							</div>
 
 							<div class="actions">
-								<button class="btn info notification_send"><lift:loc locid="send.notification">Send Notification</lift:loc></button>
+								<input type="submit" class="notification_send btn info"/>
 							</div>
 
 						</fieldset>
