@@ -8,7 +8,7 @@ scalaVersion := "2.9.1"
 
 seq(webSettings: _*)
 
-port in container.Configuration := 8081
+//port in container.Configuration := 8081
 
 scalacOptions ++= Seq("-deprecation")
 //scalacOptions ++= Seq("-unchecked", "-deprecation")
@@ -59,7 +59,7 @@ libraryDependencies ++= {
 
 libraryDependencies ++= Seq(
   "ag.bett.lift" %% "bhtml" % "0.1",
-//  "org.postgresql" % "postgresql" % "9.1-901.jdbc4",
+  "postgresql" % "postgresql" % "9.1-901.jdbc4",
   "net.databinder" %% "dispatch-http" % "0.8.6"
 )
 
