@@ -1,0 +1,90 @@
+<lift:surround with="bootstrap" at="lift-content">
+	<div class="container-fluid">
+		<div class="content">
+
+			<div class="row">
+
+				<div class="hero-unit span14">
+					<h1><lift:loc locid="welcome">Welcome!</lift:loc></h1>
+					<br/><br/>
+
+					<div class="alert-message block-message info" lift="Users.nosuperuser">
+						<a class="close" href="#">×</a>
+						<p>
+							<strong><lift:loc locid="no.superuser.found">No superuser found!</lift:loc></strong>
+							<lift:loc locid="do.you.want.to.become.a.superuser?">Do you want to become one?</lift:loc>
+						</p>
+						<br/>
+						<div class="alert-actions"><button lift="Users.becomesuperuser"></button></div>
+					</div>
+
+					<p>
+						To check out validations, try the forms over in the <a href="/customers">Customers</a> area.
+					</p>
+				</div>
+
+				<div class="span8" lift="Users.isadmin">
+					<form lift="SendNotification" onsubmit="javascript:return false">
+						<fieldset>
+							<legend><lift:loc locid="new.notification">New Notification</lift:loc></legend>
+
+							<div class="clearfix">
+								<label><lift:loc locid="title">Title</lift:loc></label>
+								<div class="input">
+									<input class="notification_title"/>
+								</div>
+							</div>
+
+							<div class="clearfix">
+								<label><lift:loc locid="text">Text</lift:loc></label>
+								<div class="input">
+									<input class="notification_text"/>
+								</div>
+							</div>
+
+							<div class="clearfix">
+								<label><lift:loc locid="customer">Customer</lift:loc></label>
+								<div class="input">
+									<input class="notification_customer" placeholder="e.g. 10100"/>
+								</div>
+							</div>
+
+							<div class="clearfix">
+								<label><lift:loc locid="image">Image</lift:loc></label>
+								<div class="input">
+									<input class="notification_image" placeholder="http://uberblo.gs/me.png"/>
+								</div>
+							</div>
+
+							<div class="clearfix">
+								<div class="input">
+									<ul class="inputs-list">
+										<li>
+											<label>
+												<input class="notification_sticky"/>
+												<span><lift:loc locid="sticky">Sticky</lift:loc></span>
+											</label>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="actions">
+								<button class="btn info notification_send"><lift:loc locid="send.notification">Send Notification</lift:loc></button>
+							</div>
+
+						</fieldset>
+					</form>
+				</div>
+			</div>
+
+			<hr lift="Users.isadmin"/>
+
+			<div class="row">
+				<div class="span16">
+				</div>
+			</div>
+
+		</div>
+	</div>
+</lift:surround>

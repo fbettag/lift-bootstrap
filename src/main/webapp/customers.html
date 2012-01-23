@@ -1,0 +1,28 @@
+<lift:surround with="bootstrap" at="lift-content">
+	<div class="container-fluid">
+		<div class="content">
+			<div class="row">
+
+				<div class="span16" lift="CustomerList">
+					<table class="zebra-striped">
+						<col width="50"/><col width="200"/><col width="60"/><col width="60"/>
+						<tr>
+							<th><lift:loc locid="id">ID</lift:loc></th>
+							<th class="left"><lift:loc locid="name">Name</lift:loc></th>
+							<th><lift:loc locid="billed">Billed</lift:loc></th>
+							<th><lift:loc locid="paid">Paid</lift:loc></th>
+						</tr>
+						<tr class="customer_row">
+							<td class="customer_id"></td>
+							<td class="customer_name left"></td>
+							<td class="customer_billed"></td>
+							<td class="customer_paid"></td>
+						</tr>
+					</table>
+				</div>
+
+				<lift:embed what="_customer_add"/>
+			</div>
+		</div>
+	</div>
+</lift:surround>

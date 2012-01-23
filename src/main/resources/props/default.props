@@ -1,0 +1,15 @@
+# Main
+#main.driver=org.postgresql.Driver
+#main.user=
+#main.password=
+#main.url=jdbc:postgresql:myDB
+#main.url=jdbc:postgresql://host/myDB
+
+# SMTP
+#mail.smtp.host=my.mail.host
+#mail.smtp.from=noreply@my.mail.host
+
+# Directories
+script.dir=/var/www/myProject/scripts
+work.dir=/var/www/myProject/workdata
+
