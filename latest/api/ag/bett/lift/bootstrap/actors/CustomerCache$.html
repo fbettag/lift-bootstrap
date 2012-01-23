@@ -1,0 +1,649 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+        <head>
+          <title>ag.bett.lift.bootstrap.actors.CustomerCache</title>
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link type="text/css" media="screen" rel="stylesheet" href="../../../../../lib/template.css" />
+      <script type="text/javascript" src="../../../../../lib/jquery.js"></script>
+      <script type="text/javascript" src="../../../../../lib/jquery-ui.js"></script>
+      <script type="text/javascript" src="../../../../../lib/template.js"></script>
+      <script type="text/javascript" src="../../../../../lib/tools.tooltip.js"></script>
+    
+        </head>
+        <body class="value">
+      <div id="definition">
+        <img src="../../../../../lib/object_big.png" />
+        <p id="owner"><a name="ag" class="extype" href="../../../../package.html">ag</a>.<a name="ag.bett" class="extype" href="../../../package.html">bett</a>.<a name="ag.bett.lift" class="extype" href="../../package.html">lift</a>.<a name="ag.bett.lift.bootstrap" class="extype" href="../package.html">bootstrap</a>.<a name="ag.bett.lift.bootstrap.actors" class="extype" href="package.html">actors</a></p>
+        <h1>CustomerCache</h1>
+      </div>
+
+      <h4 class="signature" id="signature">
+      <span class="kind">object</span>
+      <span class="symbol"> 
+        <span class="name">CustomerCache</span>
+        
+        <span class="result"> extends <span name="net.liftweb.actor.LiftActor" class="extype">LiftActor</span> with <span name="net.liftweb.common.Loggable" class="extype">Loggable</span></span>
+      </span>
+      </h4>
+      
+          <div class="fullcommenttop" id="comment"><div class="toggleContainer block">
+          <span class="toggle">Linear Supertypes</span>
+          <div class="superTypes hiddenContent"><span name="net.liftweb.common.Loggable" class="extype">Loggable</span>, <span name="net.liftweb.actor.LiftActor" class="extype">LiftActor</span>, <span name="net.liftweb.common.ForwardableActor" class="extype">ForwardableActor</span>[<span name="scala.Any" class="extype">Any</span>, <span name="scala.Any" class="extype">Any</span>], <span name="net.liftweb.common.GenericActor" class="extype">GenericActor</span>[<span name="scala.Any" class="extype">Any</span>], <span name="net.liftweb.common.TypedActor" class="extype">TypedActor</span>[<span name="scala.Any" class="extype">Any</span>, <span name="scala.Any" class="extype">Any</span>], <span name="net.liftweb.actor.SpecializedLiftActor" class="extype">SpecializedLiftActor</span>[<span name="scala.Any" class="extype">Any</span>], <span name="net.liftweb.common.SimpleActor" class="extype">SimpleActor</span>[<span name="scala.Any" class="extype">Any</span>], AnyRef, <span name="scala.Any" class="extype">Any</span></div>
+        </div></div>
+        
+
+      <div id="template">
+
+        <div id="mbrsel">
+          <div id="textfilter"><span class="pre"></span><span class="input"><input accesskey="/" type="text" /></span><span class="post"></span></div>
+          <div id="order">
+                <span class="filtertype">Ordering</span>
+                <ol><li class="alpha in"><span>Alphabetic</span></li><li class="inherit out"><span>By inheritance</span></li></ol>
+              </div>
+          <div id="ancestors">
+                <span class="filtertype">Inherited</span>
+                <ol><li class="hideall out"><span>Hide All</span></li>
+                <li class="showall in"><span>Show all</span></li></ol>
+                <ol id="linearization"><li name="ag.bett.lift.bootstrap.actors.CustomerCache" class="in"><span>CustomerCache</span></li><li name="net.liftweb.common.Loggable" class="in"><span>Loggable</span></li><li name="net.liftweb.actor.LiftActor" class="in"><span>LiftActor</span></li><li name="net.liftweb.common.ForwardableActor" class="in"><span>ForwardableActor</span></li><li name="net.liftweb.common.GenericActor" class="in"><span>GenericActor</span></li><li name="net.liftweb.common.TypedActor" class="in"><span>TypedActor</span></li><li name="net.liftweb.actor.SpecializedLiftActor" class="in"><span>SpecializedLiftActor</span></li><li name="net.liftweb.common.SimpleActor" class="in"><span>SimpleActor</span></li><li name="scala.AnyRef" class="in"><span>AnyRef</span></li><li name="scala.Any" class="in"><span>Any</span></li></ol>
+              </div>
+          <div id="visbl">
+              <span class="filtertype">Visibility</span>
+              <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+            </div>
+        </div>
+
+        
+
+        
+        
+        
+
+        <div class="values members" id="values">
+              <h3>Value Members</h3>
+              <ol><li visbl="pub" name="net.liftweb.actor.SpecializedLiftActor#!" data-isabs="false">
+      <a id="!(Any):Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">!</span>
+        
+        <span class="params">(<span name="msg">msg: <span name="scala.Any" class="extype">Any</span></span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>SpecializedLiftActor → SimpleActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.actor.LiftActor#!!" data-isabs="false">
+      <a id="!!(Any):Box[Any]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">!!</span>
+        
+        <span class="params">(<span name="msg">msg: <span name="scala.Any" class="extype">Any</span></span>)</span><span class="result">: <span name="net.liftweb.common.Box" class="extype">Box</span>[<span name="scala.Any" class="extype">Any</span>]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>LiftActor → TypedActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.actor.LiftActor#!!" data-isabs="false">
+      <a id="!!(Any,Long):Box[Any]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">!!</span>
+        
+        <span class="params">(<span name="msg">msg: <span name="scala.Any" class="extype">Any</span></span>, <span name="timeout">timeout: <span name="scala.Long" class="extype">Long</span></span>)</span><span class="result">: <span name="net.liftweb.common.Box" class="extype">Box</span>[<span name="scala.Any" class="extype">Any</span>]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>LiftActor → TypedActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.actor.LiftActor#!&lt;" data-isabs="false">
+      <a id="!&lt;(Any):LAFuture[Any]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">!&lt;</span>
+        
+        <span class="params">(<span name="msg">msg: <span name="scala.Any" class="extype">Any</span></span>)</span><span class="result">: <span name="net.liftweb.actor.LAFuture" class="extype">LAFuture</span>[<span name="scala.Any" class="extype">Any</span>]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>LiftActor</dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef#!=" data-isabs="false">
+      <a id="!=(AnyRef):Boolean"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">!=</span>
+        
+        <span class="params">(<span name="arg0">arg0: AnyRef</span>)</span><span class="result">: <span name="scala.Boolean" class="extype">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>final </dd><dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li visbl="pub" name="scala.Any#!=" data-isabs="false">
+      <a id="!=(Any):Boolean"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">!=</span>
+        
+        <span class="params">(<span name="arg0">arg0: <span name="scala.Any" class="extype">Any</span></span>)</span><span class="result">: <span name="scala.Boolean" class="extype">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>final </dd><dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.actor.LiftActor#!?" data-isabs="false">
+      <a id="!?(Long,Any):Box[Any]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">!?</span>
+        
+        <span class="params">(<span name="timeout">timeout: <span name="scala.Long" class="extype">Long</span></span>, <span name="message">message: <span name="scala.Any" class="extype">Any</span></span>)</span><span class="result">: <span name="net.liftweb.common.Box" class="extype">Box</span>[<span name="scala.Any" class="extype">Any</span>]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>LiftActor → TypedActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.actor.LiftActor#!?" data-isabs="false">
+      <a id="!?(Any):Any"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">!?</span>
+        
+        <span class="params">(<span name="msg">msg: <span name="scala.Any" class="extype">Any</span></span>)</span><span class="result">: <span name="scala.Any" class="extype">Any</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>LiftActor → TypedActor</dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef###" data-isabs="false">
+      <a id="##():Int"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">##</span>
+        
+        <span class="params">()</span><span class="result">: <span name="scala.Int" class="extype">Int</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>final </dd><dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef#==" data-isabs="false">
+      <a id="==(AnyRef):Boolean"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">==</span>
+        
+        <span class="params">(<span name="arg0">arg0: AnyRef</span>)</span><span class="result">: <span name="scala.Boolean" class="extype">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>final </dd><dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li visbl="pub" name="scala.Any#==" data-isabs="false">
+      <a id="==(Any):Boolean"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">==</span>
+        
+        <span class="params">(<span name="arg0">arg0: <span name="scala.Any" class="extype">Any</span></span>)</span><span class="result">: <span name="scala.Boolean" class="extype">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>final </dd><dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li visbl="pub" name="ag.bett.lift.bootstrap.actors.CustomerCache#all" data-isabs="false">
+      <a id="all:List[Customer]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">all</span>
+        
+        <span class="result">: List[<a name="ag.bett.lift.bootstrap.model.Customer" class="extype" href="../model/Customer.html">Customer</a>]</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="prt" name="net.liftweb.actor.SpecializedLiftActor#around" data-isabs="false">
+      <a id="around[R](⇒ R):R"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">around</span>
+        <span class="tparams">[<span name="R">R</span>]</span>
+        <span class="params">(<span name="f">f: ⇒ R</span>)</span><span class="result">: R</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>SpecializedLiftActor</dd></dl></div>
+    </li><li visbl="prt" name="net.liftweb.actor.SpecializedLiftActor#aroundLoans" data-isabs="false">
+      <a id="aroundLoans:List[CommonLoanWrapper]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">aroundLoans</span>
+        
+        <span class="result">: List[<span name="net.liftweb.common.CommonLoanWrapper" class="extype">CommonLoanWrapper</span>]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>SpecializedLiftActor</dd></dl></div>
+    </li><li visbl="pub" name="scala.Any#asInstanceOf" data-isabs="false">
+      <a id="asInstanceOf[T0]:T0"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">asInstanceOf</span>
+        <span class="tparams">[<span name="T0">T0</span>]</span>
+        <span class="result">: T0</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>final </dd><dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li visbl="prt" name="scala.AnyRef#clone" data-isabs="false">
+      <a id="clone():AnyRef"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">clone</span>
+        
+        <span class="params">()</span><span class="result">: AnyRef</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a name="java.lang" class="extype" href="../../../../../java/lang/package.html">lang</a>] </dd><dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li visbl="prt" name="ag.bett.lift.bootstrap.actors.CustomerCache#customers" data-isabs="false">
+      <a id="customers:HashMap[Long, Customer]"></a>
+      <h4 class="signature">
+      <span class="kind">val</span>
+      <span class="symbol"> 
+        <span class="name">customers</span>
+        
+        <span class="result">: <span name="scala.collection.mutable.HashMap" class="extype">HashMap</span>[<span name="scala.Long" class="extype">Long</span>, <a name="ag.bett.lift.bootstrap.model.Customer" class="extype" href="../model/Customer.html">Customer</a>]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef#eq" data-isabs="false">
+      <a id="eq(AnyRef):Boolean"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">eq</span>
+        
+        <span class="params">(<span name="arg0">arg0: AnyRef</span>)</span><span class="result">: <span name="scala.Boolean" class="extype">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>final </dd><dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef#equals" data-isabs="false">
+      <a id="equals(Any):Boolean"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">equals</span>
+        
+        <span class="params">(<span name="arg0">arg0: <span name="scala.Any" class="extype">Any</span></span>)</span><span class="result">: <span name="scala.Boolean" class="extype">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li visbl="prt" name="net.liftweb.actor.SpecializedLiftActor#exceptionHandler" data-isabs="false">
+      <a id="exceptionHandler:PartialFunction[Throwable, Unit]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">exceptionHandler</span>
+        
+        <span class="result">: <span name="scala.PartialFunction" class="extype">PartialFunction</span>[Throwable, <span name="scala.Unit" class="extype">Unit</span>]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>SpecializedLiftActor</dd></dl></div>
+    </li><li visbl="prt" name="net.liftweb.actor.LiftActor#execTranslate" data-isabs="false">
+      <a id="execTranslate((Any) ⇒ Unit)(Any):Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">execTranslate</span>
+        
+        <span class="params">(<span name="f">f: (<span name="scala.Any" class="extype">Any</span>) ⇒ <span name="scala.Unit" class="extype">Unit</span></span>)</span><span class="params">(<span name="v">v: <span name="scala.Any" class="extype">Any</span></span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>LiftActor → SpecializedLiftActor</dd></dl></div>
+    </li><li visbl="prt" name="scala.AnyRef#finalize" data-isabs="false">
+      <a id="finalize():Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">finalize</span>
+        
+        <span class="params">()</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a name="java.lang" class="extype" href="../../../../../java/lang/package.html">lang</a>] </dd><dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li visbl="pub" name="ag.bett.lift.bootstrap.actors.CustomerCache#find" data-isabs="false">
+      <a id="find(Long):Box[Customer]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">find</span>
+        
+        <span class="params">(<span name="i">i: <span name="scala.Long" class="extype">Long</span></span>)</span><span class="result">: <span name="net.liftweb.common.Box" class="extype">Box</span>[<a name="ag.bett.lift.bootstrap.model.Customer" class="extype" href="../model/Customer.html">Customer</a>]</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="ag.bett.lift.bootstrap.actors.CustomerCache#find" data-isabs="false">
+      <a id="find(String):Box[Customer]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">find</span>
+        
+        <span class="params">(<span name="s">s: String</span>)</span><span class="result">: <span name="net.liftweb.common.Box" class="extype">Box</span>[<a name="ag.bett.lift.bootstrap.model.Customer" class="extype" href="../model/Customer.html">Customer</a>]</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="prt" name="net.liftweb.actor.LiftActor#forwardMessageTo" data-isabs="false">
+      <a id="forwardMessageTo(Any,TypedActor[Any, Any]):Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">forwardMessageTo</span>
+        
+        <span class="params">(<span name="msg">msg: <span name="scala.Any" class="extype">Any</span></span>, <span name="forwardTo">forwardTo: <span name="net.liftweb.common.TypedActor" class="extype">TypedActor</span>[<span name="scala.Any" class="extype">Any</span>, <span name="scala.Any" class="extype">Any</span>]</span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected final </dd><dt>Definition Classes</dt><dd>LiftActor → ForwardableActor</dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef#getClass" data-isabs="false">
+      <a id="getClass():java.lang.Class[_]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">getClass</span>
+        
+        <span class="params">()</span><span class="result">: java.lang.Class[_]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>final </dd><dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef#hashCode" data-isabs="false">
+      <a id="hashCode():Int"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">hashCode</span>
+        
+        <span class="params">()</span><span class="result">: <span name="scala.Int" class="extype">Int</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li visbl="prt" name="net.liftweb.actor.SpecializedLiftActor#highPriorityReceive" data-isabs="false">
+      <a id="highPriorityReceive:Box[PartialFunction[Any, Unit]]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">highPriorityReceive</span>
+        
+        <span class="result">: <span name="net.liftweb.common.Box" class="extype">Box</span>[<span name="scala.PartialFunction" class="extype">PartialFunction</span>[<span name="scala.Any" class="extype">Any</span>, <span name="scala.Unit" class="extype">Unit</span>]]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>SpecializedLiftActor</dd></dl></div>
+    </li><li visbl="pub" name="ag.bett.lift.bootstrap.actors.CustomerCache#init" data-isabs="false">
+      <a id="init:Boolean"></a>
+      <h4 class="signature">
+      <span class="kind">val</span>
+      <span class="symbol"> 
+        <span class="name">init</span>
+        
+        <span class="result">: <span name="scala.Boolean" class="extype">Boolean</span></span>
+      </span>
+      </h4>
+      
+    </li><li visbl="prt" name="net.liftweb.actor.SpecializedLiftActor#insertMsgAtHeadOfQueue_!" data-isabs="false">
+      <a id="insertMsgAtHeadOfQueue_!(Any):Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">insertMsgAtHeadOfQueue_!</span>
+        
+        <span class="params">(<span name="msg">msg: <span name="scala.Any" class="extype">Any</span></span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>SpecializedLiftActor</dd></dl></div>
+    </li><li visbl="pub" name="scala.Any#isInstanceOf" data-isabs="false">
+      <a id="isInstanceOf[T0]:Boolean"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">isInstanceOf</span>
+        <span class="tparams">[<span name="T0">T0</span>]</span>
+        <span class="result">: <span name="scala.Boolean" class="extype">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>final </dd><dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li visbl="prt" name="net.liftweb.common.Loggable#logger" data-isabs="false">
+      <a id="logger:Logger"></a>
+      <h4 class="signature">
+      <span class="kind">val</span>
+      <span class="symbol"> 
+        <span class="name">logger</span>
+        
+        <span class="result">: <span name="net.liftweb.common.Logger" class="extype">Logger</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>Loggable</dd></dl></div>
+    </li><li visbl="prt" name="ag.bett.lift.bootstrap.actors.CustomerCache#messageHandler" data-isabs="false">
+      <a id="messageHandler:PartialFunction[Any, Unit]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">messageHandler</span>
+        
+        <span class="result">: <span name="scala.PartialFunction" class="extype">PartialFunction</span>[<span name="scala.Any" class="extype">Any</span>, <span name="scala.Unit" class="extype">Unit</span>]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd><a name="ag.bett.lift.bootstrap.actors.CustomerCache" class="extype" href="">CustomerCache</a> → SpecializedLiftActor</dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef#ne" data-isabs="false">
+      <a id="ne(AnyRef):Boolean"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">ne</span>
+        
+        <span class="params">(<span name="arg0">arg0: AnyRef</span>)</span><span class="result">: <span name="scala.Boolean" class="extype">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>final </dd><dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef#notify" data-isabs="false">
+      <a id="notify():Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">notify</span>
+        
+        <span class="params">()</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>final </dd><dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef#notifyAll" data-isabs="false">
+      <a id="notifyAll():Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">notifyAll</span>
+        
+        <span class="params">()</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>final </dd><dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li visbl="prt" name="net.liftweb.actor.LiftActor#reply" data-isabs="false">
+      <a id="reply(Any):Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">reply</span>
+        
+        <span class="params">(<span name="v">v: <span name="scala.Any" class="extype">Any</span></span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>LiftActor → ForwardableActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.actor.SpecializedLiftActor#send" data-isabs="false">
+      <a id="send(Any):Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">send</span>
+        
+        <span class="params">(<span name="msg">msg: <span name="scala.Any" class="extype">Any</span></span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>SpecializedLiftActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.actor.LiftActor#sendAndGetFuture" data-isabs="false">
+      <a id="sendAndGetFuture(Any):LAFuture[Any]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">sendAndGetFuture</span>
+        
+        <span class="params">(<span name="msg">msg: <span name="scala.Any" class="extype">Any</span></span>)</span><span class="result">: <span name="net.liftweb.actor.LAFuture" class="extype">LAFuture</span>[<span name="scala.Any" class="extype">Any</span>]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>LiftActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.actor.LiftActor#sendAndGetReply" data-isabs="false">
+      <a id="sendAndGetReply(Long,Any):Any"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">sendAndGetReply</span>
+        
+        <span class="params">(<span name="timeout">timeout: <span name="scala.Long" class="extype">Long</span></span>, <span name="msg">msg: <span name="scala.Any" class="extype">Any</span></span>)</span><span class="result">: <span name="scala.Any" class="extype">Any</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>LiftActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.actor.LiftActor#sendAndGetReply" data-isabs="false">
+      <a id="sendAndGetReply(Any):Any"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">sendAndGetReply</span>
+        
+        <span class="params">(<span name="msg">msg: <span name="scala.Any" class="extype">Any</span></span>)</span><span class="result">: <span name="scala.Any" class="extype">Any</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>LiftActor</dd></dl></div>
+    </li><li visbl="prt" name="ag.bett.lift.bootstrap.actors.CustomerCache#sort" data-isabs="false">
+      <a id="sort(HashMap[Long, Customer]):List[Customer]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">sort</span>
+        
+        <span class="params">(<span name="hm">hm: <span name="scala.collection.mutable.HashMap" class="extype">HashMap</span>[<span name="scala.Long" class="extype">Long</span>, <a name="ag.bett.lift.bootstrap.model.Customer" class="extype" href="../model/Customer.html">Customer</a>]</span>)</span><span class="result">: <span name="scala.collection.immutable.List" class="extype">List</span>[<a name="ag.bett.lift.bootstrap.model.Customer" class="extype" href="../model/Customer.html">Customer</a>]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef#synchronized" data-isabs="false">
+      <a id="synchronized[T0](⇒ T0):T0"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">synchronized</span>
+        <span class="tparams">[<span name="T0">T0</span>]</span>
+        <span class="params">(<span name="arg0">arg0: ⇒ T0</span>)</span><span class="result">: T0</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>final </dd><dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li visbl="prt" name="net.liftweb.actor.LiftActor#testTranslate" data-isabs="false">
+      <a id="testTranslate((Any) ⇒ Boolean)(Any):Boolean"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">testTranslate</span>
+        
+        <span class="params">(<span name="f">f: (<span name="scala.Any" class="extype">Any</span>) ⇒ <span name="scala.Boolean" class="extype">Boolean</span></span>)</span><span class="params">(<span name="v">v: <span name="scala.Any" class="extype">Any</span></span>)</span><span class="result">: <span name="scala.Boolean" class="extype">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>LiftActor → SpecializedLiftActor</dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef#toString" data-isabs="false">
+      <a id="toString():String"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">toString</span>
+        
+        <span class="params">()</span><span class="result">: <span name="java.lang.String" class="extype">String</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li visbl="prt" name="ag.bett.lift.bootstrap.actors.CustomerCache#update" data-isabs="false">
+      <a id="update(Customer):Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">update</span>
+        
+        <span class="params">(<span name="customer">customer: <a name="ag.bett.lift.bootstrap.model.Customer" class="extype" href="../model/Customer.html">Customer</a></span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef#wait" data-isabs="false">
+      <a id="wait():Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">wait</span>
+        
+        <span class="params">()</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>final </dd><dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef#wait" data-isabs="false">
+      <a id="wait(Long,Int):Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">wait</span>
+        
+        <span class="params">(<span name="arg0">arg0: <span name="scala.Long" class="extype">Long</span></span>, <span name="arg1">arg1: <span name="scala.Int" class="extype">Int</span></span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>final </dd><dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef#wait" data-isabs="false">
+      <a id="wait(Long):Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">wait</span>
+        
+        <span class="params">(<span name="arg0">arg0: <span name="scala.Long" class="extype">Long</span></span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>final </dd><dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li></ol>
+            </div>
+
+        
+
+        <div name="net.liftweb.common.Loggable" class="parent">
+              <h3>Inherited from <span name="net.liftweb.common.Loggable" class="extype">Loggable</span></h3>
+            </div><div name="net.liftweb.actor.LiftActor" class="parent">
+              <h3>Inherited from <span name="net.liftweb.actor.LiftActor" class="extype">LiftActor</span></h3>
+            </div><div name="net.liftweb.common.ForwardableActor" class="parent">
+              <h3>Inherited from <span name="net.liftweb.common.ForwardableActor" class="extype">ForwardableActor</span>[<span name="scala.Any" class="extype">Any</span>, <span name="scala.Any" class="extype">Any</span>]</h3>
+            </div><div name="net.liftweb.common.GenericActor" class="parent">
+              <h3>Inherited from <span name="net.liftweb.common.GenericActor" class="extype">GenericActor</span>[<span name="scala.Any" class="extype">Any</span>]</h3>
+            </div><div name="net.liftweb.common.TypedActor" class="parent">
+              <h3>Inherited from <span name="net.liftweb.common.TypedActor" class="extype">TypedActor</span>[<span name="scala.Any" class="extype">Any</span>, <span name="scala.Any" class="extype">Any</span>]</h3>
+            </div><div name="net.liftweb.actor.SpecializedLiftActor" class="parent">
+              <h3>Inherited from <span name="net.liftweb.actor.SpecializedLiftActor" class="extype">SpecializedLiftActor</span>[<span name="scala.Any" class="extype">Any</span>]</h3>
+            </div><div name="net.liftweb.common.SimpleActor" class="parent">
+              <h3>Inherited from <span name="net.liftweb.common.SimpleActor" class="extype">SimpleActor</span>[<span name="scala.Any" class="extype">Any</span>]</h3>
+            </div><div name="scala.AnyRef" class="parent">
+              <h3>Inherited from AnyRef</h3>
+            </div><div name="scala.Any" class="parent">
+              <h3>Inherited from <span name="scala.Any" class="extype">Any</span></h3>
+            </div>
+
+      </div>
+      
+      <div id="tooltip"></div>
+      
+    </body>
+      </html>

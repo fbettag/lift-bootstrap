@@ -1,0 +1,1869 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+        <head>
+          <title>ag.bett.lift.bootstrap.comet.UserNotification</title>
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link type="text/css" media="screen" rel="stylesheet" href="../../../../../lib/template.css" />
+      <script type="text/javascript" src="../../../../../lib/jquery.js"></script>
+      <script type="text/javascript" src="../../../../../lib/jquery-ui.js"></script>
+      <script type="text/javascript" src="../../../../../lib/template.js"></script>
+      <script type="text/javascript" src="../../../../../lib/tools.tooltip.js"></script>
+    
+        </head>
+        <body class="type">
+      <div id="definition">
+        <img src="../../../../../lib/class_big.png" />
+        <p id="owner"><a name="ag" class="extype" href="../../../../package.html">ag</a>.<a name="ag.bett" class="extype" href="../../../package.html">bett</a>.<a name="ag.bett.lift" class="extype" href="../../package.html">lift</a>.<a name="ag.bett.lift.bootstrap" class="extype" href="../package.html">bootstrap</a>.<a name="ag.bett.lift.bootstrap.comet" class="extype" href="package.html">comet</a></p>
+        <h1>UserNotification</h1>
+      </div>
+
+      <h4 class="signature" id="signature">
+      <span class="kind">class</span>
+      <span class="symbol"> 
+        <span class="name">UserNotification</span>
+        
+        <span class="result"> extends <span name="net.liftweb.http.CometActor" class="extype">CometActor</span> with <span name="net.liftweb.http.CometListener" class="extype">CometListener</span></span>
+      </span>
+      </h4>
+      
+          <div class="fullcommenttop" id="comment"><div class="toggleContainer block">
+          <span class="toggle">Linear Supertypes</span>
+          <div class="superTypes hiddenContent"><span name="net.liftweb.http.CometListener" class="extype">CometListener</span>, <span name="net.liftweb.http.CometActor" class="extype">CometActor</span>, <span name="net.liftweb.util.BindHelpers" class="extype">BindHelpers</span>, <span name="net.liftweb.http.LiftCometActor" class="extype">LiftCometActor</span>, <span name="net.liftweb.util.Dependent" class="extype">Dependent</span>, <span name="net.liftweb.actor.LiftActor" class="extype">LiftActor</span>, <span name="net.liftweb.common.ForwardableActor" class="extype">ForwardableActor</span>[<span name="scala.Any" class="extype">Any</span>, <span name="scala.Any" class="extype">Any</span>], <span name="net.liftweb.common.GenericActor" class="extype">GenericActor</span>[<span name="scala.Any" class="extype">Any</span>], <span name="net.liftweb.common.TypedActor" class="extype">TypedActor</span>[<span name="scala.Any" class="extype">Any</span>, <span name="scala.Any" class="extype">Any</span>], <span name="net.liftweb.actor.SpecializedLiftActor" class="extype">SpecializedLiftActor</span>[<span name="scala.Any" class="extype">Any</span>], <span name="net.liftweb.common.SimpleActor" class="extype">SimpleActor</span>[<span name="scala.Any" class="extype">Any</span>], AnyRef, <span name="scala.Any" class="extype">Any</span></div>
+        </div></div>
+        
+
+      <div id="template">
+
+        <div id="mbrsel">
+          <div id="textfilter"><span class="pre"></span><span class="input"><input accesskey="/" type="text" /></span><span class="post"></span></div>
+          <div id="order">
+                <span class="filtertype">Ordering</span>
+                <ol><li class="alpha in"><span>Alphabetic</span></li><li class="inherit out"><span>By inheritance</span></li></ol>
+              </div>
+          <div id="ancestors">
+                <span class="filtertype">Inherited</span>
+                <ol><li class="hideall out"><span>Hide All</span></li>
+                <li class="showall in"><span>Show all</span></li></ol>
+                <ol id="linearization"><li name="ag.bett.lift.bootstrap.comet.UserNotification" class="in"><span>UserNotification</span></li><li name="net.liftweb.http.CometListener" class="in"><span>CometListener</span></li><li name="net.liftweb.http.CometActor" class="in"><span>CometActor</span></li><li name="net.liftweb.util.BindHelpers" class="in"><span>BindHelpers</span></li><li name="net.liftweb.http.LiftCometActor" class="in"><span>LiftCometActor</span></li><li name="net.liftweb.util.Dependent" class="in"><span>Dependent</span></li><li name="net.liftweb.actor.LiftActor" class="in"><span>LiftActor</span></li><li name="net.liftweb.common.ForwardableActor" class="in"><span>ForwardableActor</span></li><li name="net.liftweb.common.GenericActor" class="in"><span>GenericActor</span></li><li name="net.liftweb.common.TypedActor" class="in"><span>TypedActor</span></li><li name="net.liftweb.actor.SpecializedLiftActor" class="in"><span>SpecializedLiftActor</span></li><li name="net.liftweb.common.SimpleActor" class="in"><span>SimpleActor</span></li><li name="scala.AnyRef" class="in"><span>AnyRef</span></li><li name="scala.Any" class="in"><span>Any</span></li></ol>
+              </div>
+          <div id="visbl">
+              <span class="filtertype">Visibility</span>
+              <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+            </div>
+        </div>
+
+        <div class="members" id="constructors">
+              <h3>Instance Constructors</h3>
+              <ol><li visbl="pub" name="ag.bett.lift.bootstrap.comet.UserNotification#this" data-isabs="false">
+      <a id="this:UserNotification"></a>
+      <h4 class="signature">
+      <span class="kind">new</span>
+      <span class="symbol"> 
+        <span class="name">UserNotification</span>
+        
+        <span class="params">()</span>
+      </span>
+      </h4>
+      
+    </li></ol>
+            </div>
+
+        
+        
+        
+
+        <div class="values members" id="values">
+              <h3>Value Members</h3>
+              <ol><li visbl="pub" name="net.liftweb.actor.SpecializedLiftActor#!" data-isabs="false">
+      <a id="!(Any):Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">!</span>
+        
+        <span class="params">(<span name="msg">msg: <span name="scala.Any" class="extype">Any</span></span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>SpecializedLiftActor → SimpleActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.actor.LiftActor#!!" data-isabs="false">
+      <a id="!!(Any):Box[Any]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">!!</span>
+        
+        <span class="params">(<span name="msg">msg: <span name="scala.Any" class="extype">Any</span></span>)</span><span class="result">: <span name="net.liftweb.common.Box" class="extype">Box</span>[<span name="scala.Any" class="extype">Any</span>]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>LiftActor → TypedActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.actor.LiftActor#!!" data-isabs="false">
+      <a id="!!(Any,Long):Box[Any]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">!!</span>
+        
+        <span class="params">(<span name="msg">msg: <span name="scala.Any" class="extype">Any</span></span>, <span name="timeout">timeout: <span name="scala.Long" class="extype">Long</span></span>)</span><span class="result">: <span name="net.liftweb.common.Box" class="extype">Box</span>[<span name="scala.Any" class="extype">Any</span>]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>LiftActor → TypedActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.actor.LiftActor#!&lt;" data-isabs="false">
+      <a id="!&lt;(Any):LAFuture[Any]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">!&lt;</span>
+        
+        <span class="params">(<span name="msg">msg: <span name="scala.Any" class="extype">Any</span></span>)</span><span class="result">: <span name="net.liftweb.actor.LAFuture" class="extype">LAFuture</span>[<span name="scala.Any" class="extype">Any</span>]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>LiftActor</dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef#!=" data-isabs="false">
+      <a id="!=(AnyRef):Boolean"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">!=</span>
+        
+        <span class="params">(<span name="arg0">arg0: AnyRef</span>)</span><span class="result">: <span name="scala.Boolean" class="extype">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>final </dd><dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li visbl="pub" name="scala.Any#!=" data-isabs="false">
+      <a id="!=(Any):Boolean"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">!=</span>
+        
+        <span class="params">(<span name="arg0">arg0: <span name="scala.Any" class="extype">Any</span></span>)</span><span class="result">: <span name="scala.Boolean" class="extype">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>final </dd><dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.actor.LiftActor#!?" data-isabs="false">
+      <a id="!?(Long,Any):Box[Any]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">!?</span>
+        
+        <span class="params">(<span name="timeout">timeout: <span name="scala.Long" class="extype">Long</span></span>, <span name="message">message: <span name="scala.Any" class="extype">Any</span></span>)</span><span class="result">: <span name="net.liftweb.common.Box" class="extype">Box</span>[<span name="scala.Any" class="extype">Any</span>]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>LiftActor → TypedActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.actor.LiftActor#!?" data-isabs="false">
+      <a id="!?(Any):Any"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">!?</span>
+        
+        <span class="params">(<span name="msg">msg: <span name="scala.Any" class="extype">Any</span></span>)</span><span class="result">: <span name="scala.Any" class="extype">Any</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>LiftActor → TypedActor</dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef###" data-isabs="false">
+      <a id="##():Int"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">##</span>
+        
+        <span class="params">()</span><span class="result">: <span name="scala.Int" class="extype">Int</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>final </dd><dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef#==" data-isabs="false">
+      <a id="==(AnyRef):Boolean"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">==</span>
+        
+        <span class="params">(<span name="arg0">arg0: AnyRef</span>)</span><span class="result">: <span name="scala.Boolean" class="extype">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>final </dd><dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li visbl="pub" name="scala.Any#==" data-isabs="false">
+      <a id="==(Any):Boolean"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">==</span>
+        
+        <span class="params">(<span name="arg0">arg0: <span name="scala.Any" class="extype">Any</span></span>)</span><span class="result">: <span name="scala.Boolean" class="extype">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>final </dd><dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.util.BindHelpers#addAttributes" data-isabs="false">
+      <a id="addAttributes(NodeSeq,MetaData):NodeSeq"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">addAttributes</span>
+        
+        <span class="params">(<span name="in">in: <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>, <span name="attributes">attributes: <span name="scala.xml.MetaData" class="extype">MetaData</span></span>)</span><span class="result">: <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>BindHelpers</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.util.BindHelpers#addCssClass" data-isabs="false">
+      <a id="addCssClass(String,Elem):Elem"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">addCssClass</span>
+        
+        <span class="params">(<span name="cssClass">cssClass: String</span>, <span name="elem">elem: <span name="scala.xml.Elem" class="extype">Elem</span></span>)</span><span class="result">: <span name="scala.xml.Elem" class="extype">Elem</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>BindHelpers</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.util.BindHelpers#addCssClass" data-isabs="false">
+      <a id="addCssClass(Box[String],Elem):Elem"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">addCssClass</span>
+        
+        <span class="params">(<span name="cssClass">cssClass: <span name="net.liftweb.common.Box" class="extype">Box</span>[String]</span>, <span name="elem">elem: <span name="scala.xml.Elem" class="extype">Elem</span></span>)</span><span class="result">: <span name="scala.xml.Elem" class="extype">Elem</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>BindHelpers</dd></dl></div>
+    </li><li visbl="prt" name="net.liftweb.http.CometActor#answer" data-isabs="false">
+      <a id="answer(Any):Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">answer</span>
+        
+        <span class="params">(<span name="answer">answer: <span name="scala.Any" class="extype">Any</span></span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.CometActor#appendJsonHandler" data-isabs="false">
+      <a id="appendJsonHandler(PartialFunction[Any, JsCmd]):Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">appendJsonHandler</span>
+        
+        <span class="params">(<span name="h">h: <span name="scala.PartialFunction" class="extype">PartialFunction</span>[<span name="scala.Any" class="extype">Any</span>, <span name="net.liftweb.http.js.JsCmd" class="extype">JsCmd</span>]</span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="prt" name="net.liftweb.actor.SpecializedLiftActor#around" data-isabs="false">
+      <a id="around[R](⇒ R):R"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">around</span>
+        <span class="tparams">[<span name="R">R</span>]</span>
+        <span class="params">(<span name="f">f: ⇒ R</span>)</span><span class="result">: R</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>SpecializedLiftActor</dd></dl></div>
+    </li><li visbl="prt" name="net.liftweb.actor.SpecializedLiftActor#aroundLoans" data-isabs="false">
+      <a id="aroundLoans:List[CommonLoanWrapper]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">aroundLoans</span>
+        
+        <span class="result">: List[<span name="net.liftweb.common.CommonLoanWrapper" class="extype">CommonLoanWrapper</span>]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>SpecializedLiftActor</dd></dl></div>
+    </li><li visbl="prt" name="net.liftweb.http.CometActor#arrayToRenderOut" data-isabs="false">
+      <a id="arrayToRenderOut(Seq[Node]):RenderOut"></a>
+      <h4 class="signature">
+      <span class="kind">implicit def</span>
+      <span class="symbol"> 
+        <span class="name">arrayToRenderOut</span>
+        
+        <span class="params">(<span name="in">in: Seq[<span name="scala.xml.Node" class="extype">Node</span>]</span>)</span><span class="result">: <span name="net.liftweb.http.RenderOut" class="extype">RenderOut</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected implicit </dd><dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="pub" name="scala.Any#asInstanceOf" data-isabs="false">
+      <a id="asInstanceOf[T0]:T0"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">asInstanceOf</span>
+        <span class="tparams">[<span name="T0">T0</span>]</span>
+        <span class="result">: T0</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>final </dd><dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li visbl="prt" name="net.liftweb.http.CometActor#ask" data-isabs="false">
+      <a id="ask(LiftCometActor,Any)((Any) ⇒ Unit):Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">ask</span>
+        
+        <span class="params">(<span name="who">who: <span name="net.liftweb.http.LiftCometActor" class="extype">LiftCometActor</span></span>, <span name="what">what: <span name="scala.Any" class="extype">Any</span></span>)</span><span class="params">(<span name="answerWith">answerWith: (<span name="scala.Any" class="extype">Any</span>) ⇒ <span name="scala.Unit" class="extype">Unit</span></span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.CometActor#attributes" data-isabs="false">
+      <a id="attributes:Map[String, String]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">attributes</span>
+        
+        <span class="result">: Map[String, String]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.CometActor#autoIncludeJsonCode" data-isabs="false">
+      <a id="autoIncludeJsonCode:Boolean"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">autoIncludeJsonCode</span>
+        
+        <span class="result">: <span name="scala.Boolean" class="extype">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.CometActor#bind" data-isabs="false">
+      <a id="bind(BindParam*):NodeSeq"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">bind</span>
+        
+        <span class="params">(<span name="vals">vals: <span name="net.liftweb.util.BindHelpers.BindParam" class="extype">BindParam</span>*</span>)</span><span class="result">: <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.CometActor#bind" data-isabs="false">
+      <a id="bind(String,BindParam*):NodeSeq"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">bind</span>
+        
+        <span class="params">(<span name="prefix">prefix: String</span>, <span name="vals">vals: <span name="net.liftweb.util.BindHelpers.BindParam" class="extype">BindParam</span>*</span>)</span><span class="result">: <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.util.BindHelpers#bind" data-isabs="false">
+      <a id="bind(Map[String, NodeSeq],NodeSeq):NodeSeq"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">bind</span>
+        
+        <span class="params">(<span name="vals">vals: Map[String, <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span>]</span>, <span name="xml">xml: <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>)</span><span class="result">: <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>BindHelpers</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.util.BindHelpers#bind" data-isabs="false">
+      <a id="bind(String,Box[(NodeSeq) ⇒ NodeSeq],Box[(PrefixedAttribute) ⇒ MetaData],Boolean,NodeSeq,BindParam*):NodeSeq"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">bind</span>
+        
+        <span class="params">(<span name="namespace">namespace: String</span>, <span name="nodeFailureXform">nodeFailureXform: <span name="net.liftweb.common.Box" class="extype">Box</span>[(<span name="scala.xml.NodeSeq" class="extype">NodeSeq</span>) ⇒ <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span>]</span>, <span name="paramFailureXform">paramFailureXform: <span name="net.liftweb.common.Box" class="extype">Box</span>[(<span name="scala.xml.PrefixedAttribute" class="extype">PrefixedAttribute</span>) ⇒ <span name="scala.xml.MetaData" class="extype">MetaData</span>]</span>, <span name="preserveScope">preserveScope: <span name="scala.Boolean" class="extype">Boolean</span></span>, <span name="xml">xml: <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>, <span name="params">params: <span name="net.liftweb.util.BindHelpers.BindParam" class="extype">BindParam</span>*</span>)</span><span class="result">: <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>BindHelpers</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.util.BindHelpers#bind" data-isabs="false">
+      <a id="bind(String,Box[(NodeSeq) ⇒ NodeSeq],Box[(PrefixedAttribute) ⇒ MetaData],NodeSeq,BindParam*):NodeSeq"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">bind</span>
+        
+        <span class="params">(<span name="namespace">namespace: String</span>, <span name="nodeFailureXform">nodeFailureXform: <span name="net.liftweb.common.Box" class="extype">Box</span>[(<span name="scala.xml.NodeSeq" class="extype">NodeSeq</span>) ⇒ <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span>]</span>, <span name="paramFailureXform">paramFailureXform: <span name="net.liftweb.common.Box" class="extype">Box</span>[(<span name="scala.xml.PrefixedAttribute" class="extype">PrefixedAttribute</span>) ⇒ <span name="scala.xml.MetaData" class="extype">MetaData</span>]</span>, <span name="xml">xml: <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>, <span name="params">params: <span name="net.liftweb.util.BindHelpers.BindParam" class="extype">BindParam</span>*</span>)</span><span class="result">: <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>BindHelpers</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.util.BindHelpers#bind" data-isabs="false">
+      <a id="bind(String,NodeSeq,BindParam*):NodeSeq"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">bind</span>
+        
+        <span class="params">(<span name="namespace">namespace: String</span>, <span name="xml">xml: <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>, <span name="params">params: <span name="net.liftweb.util.BindHelpers.BindParam" class="extype">BindParam</span>*</span>)</span><span class="result">: <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>BindHelpers</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.util.BindHelpers#bindlist" data-isabs="false">
+      <a id="bindlist(List[Map[String, NodeSeq]],NodeSeq):Box[NodeSeq]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">bindlist</span>
+        
+        <span class="params">(<span name="listvals">listvals: List[Map[String, <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span>]]</span>, <span name="xml">xml: <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>)</span><span class="result">: <span name="net.liftweb.common.Box" class="extype">Box</span>[<span name="scala.xml.NodeSeq" class="extype">NodeSeq</span>]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>BindHelpers</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.CometActor#buildSpan" data-isabs="false">
+      <a id="buildSpan(Long,NodeSeq):NodeSeq"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">buildSpan</span>
+        
+        <span class="params">(<span name="time">time: <span name="scala.Long" class="extype">Long</span></span>, <span name="xml">xml: <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>)</span><span class="result">: <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>CometActor → LiftCometActor</dd></dl></div>
+    </li><li visbl="prt" name="net.liftweb.http.CometActor#cacheFixedRender" data-isabs="false">
+      <a id="cacheFixedRender:Boolean"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">cacheFixedRender</span>
+        
+        <span class="result">: <span name="scala.Boolean" class="extype">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="prt" name="net.liftweb.http.CometActor#calcFixedRender" data-isabs="false">
+      <a id="calcFixedRender:Box[NodeSeq]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">calcFixedRender</span>
+        
+        <span class="result">: <span name="net.liftweb.common.Box" class="extype">Box</span>[<span name="scala.xml.NodeSeq" class="extype">NodeSeq</span>]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="prt" name="net.liftweb.http.CometActor#captureInitialReq" data-isabs="false">
+      <a id="captureInitialReq(Box[Req]):Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">captureInitialReq</span>
+        
+        <span class="params">(<span name="initialReq">initialReq: <span name="net.liftweb.common.Box" class="extype">Box</span>[<span name="net.liftweb.http.Req" class="extype">Req</span>]</span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.util.BindHelpers#chooseTemplate" data-isabs="false">
+      <a id="chooseTemplate(String,String,NodeSeq):NodeSeq"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">chooseTemplate</span>
+        
+        <span class="params">(<span name="prefix">prefix: String</span>, <span name="tag">tag: String</span>, <span name="xhtml">xhtml: <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>)</span><span class="result">: <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>BindHelpers</dd></dl></div>
+    </li><li visbl="prt" name="net.liftweb.http.CometActor#clearWiringDependencies" data-isabs="false">
+      <a id="clearWiringDependencies():Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">clearWiringDependencies</span>
+        
+        <span class="params">()</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="prt" name="scala.AnyRef#clone" data-isabs="false">
+      <a id="clone():AnyRef"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">clone</span>
+        
+        <span class="params">()</span><span class="result">: AnyRef</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a name="java.lang" class="extype" href="../../../../../java/lang/package.html">lang</a>] </dd><dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.LiftCometActor#cometActorLocale" data-isabs="false">
+      <a id="cometActorLocale:Locale"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">cometActorLocale</span>
+        
+        <span class="result">: <span name="java.util.Locale" class="extype">Locale</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>LiftCometActor</dd></dl></div>
+    </li><li visbl="prt" name="net.liftweb.http.CometActor#cometListeners" data-isabs="false">
+      <a id="cometListeners:List[ListenerId]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">cometListeners</span>
+        
+        <span class="result">: List[<span name="net.liftweb.http.ListenerId" class="extype">ListenerId</span>]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.LiftCometActor#cometProcessingTimeout" data-isabs="false">
+      <a id="cometProcessingTimeout:Long"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">cometProcessingTimeout</span>
+        
+        <span class="result">: <span name="scala.Long" class="extype">Long</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>LiftCometActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.LiftCometActor#cometProcessingTimeoutHandler" data-isabs="false">
+      <a id="cometProcessingTimeoutHandler():JsCmd"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">cometProcessingTimeoutHandler</span>
+        
+        <span class="params">()</span><span class="result">: <span name="net.liftweb.http.js.JsCmd" class="extype">JsCmd</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>LiftCometActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.LiftCometActor#cometRenderTimeout" data-isabs="false">
+      <a id="cometRenderTimeout:Long"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">cometRenderTimeout</span>
+        
+        <span class="result">: <span name="scala.Long" class="extype">Long</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>LiftCometActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.LiftCometActor#cometRenderTimeoutHandler" data-isabs="false">
+      <a id="cometRenderTimeoutHandler():Box[NodeSeq]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">cometRenderTimeoutHandler</span>
+        
+        <span class="params">()</span><span class="result">: <span name="net.liftweb.common.Box" class="extype">Box</span>[<span name="scala.xml.NodeSeq" class="extype">NodeSeq</span>]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>LiftCometActor</dd></dl></div>
+    </li><li visbl="prt" name="net.liftweb.http.CometActor#composeFunction" data-isabs="false">
+      <a id="composeFunction:PartialFunction[Any, Unit]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">composeFunction</span>
+        
+        <span class="result">: <span name="scala.PartialFunction" class="extype">PartialFunction</span>[<span name="scala.Any" class="extype">Any</span>, <span name="scala.Unit" class="extype">Unit</span>]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.util.BindHelpers#cssSelectorToCssBindPromoter" data-isabs="false">
+      <a id="cssSelectorToCssBindPromoter(CssSelector):ToCssBindPromoter"></a>
+      <h4 class="signature">
+      <span class="kind">implicit def</span>
+      <span class="symbol"> 
+        <span class="name">cssSelectorToCssBindPromoter</span>
+        
+        <span class="params">(<span name="sel">sel: <span name="net.liftweb.util.CssSelector" class="extype">CssSelector</span></span>)</span><span class="result">: <span name="net.liftweb.util.ToCssBindPromoter" class="extype">ToCssBindPromoter</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>implicit </dd><dt>Definition Classes</dt><dd>BindHelpers</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.util.BindHelpers#deepEnsureUniqueId" data-isabs="false">
+      <a id="deepEnsureUniqueId(NodeSeq):NodeSeq"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">deepEnsureUniqueId</span>
+        
+        <span class="params">(<span name="in">in: <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>)</span><span class="result">: <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>BindHelpers</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.CometActor#defaultHtml" data-isabs="false">
+      <a id="defaultHtml:NodeSeq"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">defaultHtml</span>
+        
+        <span class="result">: <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.CometActor#defaultPrefix" data-isabs="false">
+      <a id="defaultPrefix:Box[String]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">defaultPrefix</span>
+        
+        <span class="result">: <span name="net.liftweb.common.Box" class="extype">Box</span>[String]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="prt" name="net.liftweb.http.CometActor#devMode" data-isabs="false">
+      <a id="devMode:Boolean"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">devMode</span>
+        
+        <span class="result">: <span name="scala.Boolean" class="extype">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="prt" name="net.liftweb.http.CometActor#dontCacheRendering" data-isabs="false">
+      <a id="dontCacheRendering:Boolean"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">dontCacheRendering</span>
+        
+        <span class="result">: <span name="scala.Boolean" class="extype">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.CometActor#elemToFull" data-isabs="false">
+      <a id="elemToFull(Elem):Box[NodeSeq]"></a>
+      <h4 class="signature">
+      <span class="kind">implicit def</span>
+      <span class="symbol"> 
+        <span class="name">elemToFull</span>
+        
+        <span class="params">(<span name="in">in: <span name="scala.xml.Elem" class="extype">Elem</span></span>)</span><span class="result">: <span name="net.liftweb.common.Box" class="extype">Box</span>[<span name="scala.xml.NodeSeq" class="extype">NodeSeq</span>]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>implicit </dd><dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.util.BindHelpers#ensureId" data-isabs="false">
+      <a id="ensureId(NodeSeq,String):NodeSeq"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">ensureId</span>
+        
+        <span class="params">(<span name="ns">ns: <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>, <span name="id">id: String</span>)</span><span class="result">: <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>BindHelpers</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.util.BindHelpers#ensureUniqueId" data-isabs="false">
+      <a id="ensureUniqueId(Seq[NodeSeq]):Seq[NodeSeq]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">ensureUniqueId</span>
+        
+        <span class="params">(<span name="in">in: Seq[<span name="scala.xml.NodeSeq" class="extype">NodeSeq</span>]</span>)</span><span class="result">: Seq[<span name="scala.xml.NodeSeq" class="extype">NodeSeq</span>]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>BindHelpers</dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef#eq" data-isabs="false">
+      <a id="eq(AnyRef):Boolean"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">eq</span>
+        
+        <span class="params">(<span name="arg0">arg0: AnyRef</span>)</span><span class="result">: <span name="scala.Boolean" class="extype">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>final </dd><dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef#equals" data-isabs="false">
+      <a id="equals(Any):Boolean"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">equals</span>
+        
+        <span class="params">(<span name="arg0">arg0: <span name="scala.Any" class="extype">Any</span></span>)</span><span class="result">: <span name="scala.Boolean" class="extype">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.CometActor#error" data-isabs="false">
+      <a id="error(String,String):Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">error</span>
+        
+        <span class="params">(<span name="id">id: String</span>, <span name="n">n: String</span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.CometActor#error" data-isabs="false">
+      <a id="error(String,NodeSeq):Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">error</span>
+        
+        <span class="params">(<span name="id">id: String</span>, <span name="n">n: <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.CometActor#error" data-isabs="false">
+      <a id="error(NodeSeq):Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">error</span>
+        
+        <span class="params">(<span name="n">n: <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.CometActor#error" data-isabs="false">
+      <a id="error(String):Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">error</span>
+        
+        <span class="params">(<span name="n">n: String</span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.util.BindHelpers#errorDiv" data-isabs="false">
+      <a id="errorDiv(NodeSeq):Box[NodeSeq]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">errorDiv</span>
+        
+        <span class="params">(<span name="body">body: <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>)</span><span class="result">: <span name="net.liftweb.common.Box" class="extype">Box</span>[<span name="scala.xml.NodeSeq" class="extype">NodeSeq</span>]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>BindHelpers</dd></dl></div>
+    </li><li visbl="prt" name="net.liftweb.actor.SpecializedLiftActor#exceptionHandler" data-isabs="false">
+      <a id="exceptionHandler:PartialFunction[Throwable, Unit]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">exceptionHandler</span>
+        
+        <span class="result">: <span name="scala.PartialFunction" class="extype">PartialFunction</span>[Throwable, <span name="scala.Unit" class="extype">Unit</span>]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>SpecializedLiftActor</dd></dl></div>
+    </li><li visbl="prt" name="net.liftweb.actor.LiftActor#execTranslate" data-isabs="false">
+      <a id="execTranslate((Any) ⇒ Unit)(Any):Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">execTranslate</span>
+        
+        <span class="params">(<span name="f">f: (<span name="scala.Any" class="extype">Any</span>) ⇒ <span name="scala.Unit" class="extype">Unit</span></span>)</span><span class="params">(<span name="v">v: <span name="scala.Any" class="extype">Any</span></span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>LiftActor → SpecializedLiftActor</dd></dl></div>
+    </li><li visbl="prt" name="scala.AnyRef#finalize" data-isabs="false">
+      <a id="finalize():Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">finalize</span>
+        
+        <span class="params">()</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a name="java.lang" class="extype" href="../../../../../java/lang/package.html">lang</a>] </dd><dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.util.BindHelpers#findBox" data-isabs="false">
+      <a id="findBox[T](Seq[Node])((Elem) ⇒ Box[T]):Box[T]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">findBox</span>
+        <span class="tparams">[<span name="T">T</span>]</span>
+        <span class="params">(<span name="nodes">nodes: Seq[<span name="scala.xml.Node" class="extype">Node</span>]</span>)</span><span class="params">(<span name="f">f: (<span name="scala.xml.Elem" class="extype">Elem</span>) ⇒ <span name="net.liftweb.common.Box" class="extype">Box</span>[T]</span>)</span><span class="result">: <span name="net.liftweb.common.Box" class="extype">Box</span>[T]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>BindHelpers</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.util.BindHelpers#findId" data-isabs="false">
+      <a id="findId(NodeSeq):Box[String]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">findId</span>
+        
+        <span class="params">(<span name="ns">ns: <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>)</span><span class="result">: <span name="net.liftweb.common.Box" class="extype">Box</span>[String]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>BindHelpers</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.util.BindHelpers#findId" data-isabs="false">
+      <a id="findId(Seq[Node],String):Option[Elem]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">findId</span>
+        
+        <span class="params">(<span name="nodes">nodes: Seq[<span name="scala.xml.Node" class="extype">Node</span>]</span>, <span name="id">id: String</span>)</span><span class="result">: <span name="scala.Option" class="extype">Option</span>[<span name="scala.xml.Elem" class="extype">Elem</span>]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>BindHelpers</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.util.BindHelpers#findNode" data-isabs="false">
+      <a id="findNode(Elem,NodeSeq):Box[Elem]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">findNode</span>
+        
+        <span class="params">(<span name="in">in: <span name="scala.xml.Elem" class="extype">Elem</span></span>, <span name="nodes">nodes: <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>)</span><span class="result">: <span name="net.liftweb.common.Box" class="extype">Box</span>[<span name="scala.xml.Elem" class="extype">Elem</span>]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>BindHelpers</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.util.BindHelpers#findOption" data-isabs="false">
+      <a id="findOption[T](Seq[Node])((Elem) ⇒ Option[T]):Option[T]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">findOption</span>
+        <span class="tparams">[<span name="T">T</span>]</span>
+        <span class="params">(<span name="nodes">nodes: Seq[<span name="scala.xml.Node" class="extype">Node</span>]</span>)</span><span class="params">(<span name="f">f: (<span name="scala.xml.Elem" class="extype">Elem</span>) ⇒ <span name="scala.Option" class="extype">Option</span>[T]</span>)</span><span class="result">: <span name="scala.Option" class="extype">Option</span>[T]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>BindHelpers</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.util.BindHelpers#findOrCreateId" data-isabs="false">
+      <a id="findOrCreateId((String) ⇒ (NodeSeq) ⇒ NodeSeq):(NodeSeq) ⇒ NodeSeq"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">findOrCreateId</span>
+        
+        <span class="params">(<span name="f">f: (String) ⇒ (<span name="scala.xml.NodeSeq" class="extype">NodeSeq</span>) ⇒ <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>)</span><span class="result">: (<span name="scala.xml.NodeSeq" class="extype">NodeSeq</span>) ⇒ <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>BindHelpers</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.CometActor#fixedRender" data-isabs="false">
+      <a id="fixedRender:Box[NodeSeq]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">fixedRender</span>
+        
+        <span class="result">: <span name="net.liftweb.common.Box" class="extype">Box</span>[<span name="scala.xml.NodeSeq" class="extype">NodeSeq</span>]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="prt" name="net.liftweb.actor.LiftActor#forwardMessageTo" data-isabs="false">
+      <a id="forwardMessageTo(Any,TypedActor[Any, Any]):Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">forwardMessageTo</span>
+        
+        <span class="params">(<span name="msg">msg: <span name="scala.Any" class="extype">Any</span></span>, <span name="forwardTo">forwardTo: <span name="net.liftweb.common.TypedActor" class="extype">TypedActor</span>[<span name="scala.Any" class="extype">Any</span>, <span name="scala.Any" class="extype">Any</span>]</span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected final </dd><dt>Definition Classes</dt><dd>LiftActor → ForwardableActor</dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef#getClass" data-isabs="false">
+      <a id="getClass():java.lang.Class[_]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">getClass</span>
+        
+        <span class="params">()</span><span class="result">: java.lang.Class[_]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>final </dd><dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.CometActor#handleJson" data-isabs="false">
+      <a id="handleJson(Any):JsCmd"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">handleJson</span>
+        
+        <span class="params">(<span name="in">in: <span name="scala.Any" class="extype">Any</span></span>)</span><span class="result">: <span name="net.liftweb.http.js.JsCmd" class="extype">JsCmd</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.CometActor#hasOuter" data-isabs="false">
+      <a id="hasOuter:Boolean"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">hasOuter</span>
+        
+        <span class="result">: <span name="scala.Boolean" class="extype">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>CometActor → LiftCometActor</dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef#hashCode" data-isabs="false">
+      <a id="hashCode():Int"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">hashCode</span>
+        
+        <span class="params">()</span><span class="result">: <span name="scala.Int" class="extype">Int</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.CometActor#highPriority" data-isabs="false">
+      <a id="highPriority:PartialFunction[Any, Unit]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">highPriority</span>
+        
+        <span class="result">: <span name="scala.PartialFunction" class="extype">PartialFunction</span>[<span name="scala.Any" class="extype">Any</span>, <span name="scala.Unit" class="extype">Unit</span>]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="prt" name="net.liftweb.actor.SpecializedLiftActor#highPriorityReceive" data-isabs="false">
+      <a id="highPriorityReceive:Box[PartialFunction[Any, Unit]]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">highPriorityReceive</span>
+        
+        <span class="result">: <span name="net.liftweb.common.Box" class="extype">Box</span>[<span name="scala.PartialFunction" class="extype">PartialFunction</span>[<span name="scala.Any" class="extype">Any</span>, <span name="scala.Unit" class="extype">Unit</span>]]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>SpecializedLiftActor</dd></dl></div>
+    </li><li visbl="prt" name="net.liftweb.http.CometActor#initCometActor" data-isabs="false">
+      <a id="initCometActor(LiftSession,Box[String],Box[String],NodeSeq,Map[String, String]):Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">initCometActor</span>
+        
+        <span class="params">(<span name="theSession">theSession: <span name="net.liftweb.http.LiftSession" class="extype">LiftSession</span></span>, <span name="theType">theType: <span name="net.liftweb.common.Box" class="extype">Box</span>[String]</span>, <span name="name">name: <span name="net.liftweb.common.Box" class="extype">Box</span>[String]</span>, <span name="defaultHtml">defaultHtml: <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>, <span name="attributes">attributes: Map[String, String]</span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>CometActor → LiftCometActor</dd></dl></div>
+    </li><li visbl="prt" name="net.liftweb.actor.SpecializedLiftActor#insertMsgAtHeadOfQueue_!" data-isabs="false">
+      <a id="insertMsgAtHeadOfQueue_!(Any):Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">insertMsgAtHeadOfQueue_!</span>
+        
+        <span class="params">(<span name="msg">msg: <span name="scala.Any" class="extype">Any</span></span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>SpecializedLiftActor</dd></dl></div>
+    </li><li visbl="pub" name="scala.Any#isInstanceOf" data-isabs="false">
+      <a id="isInstanceOf[T0]:Boolean"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">isInstanceOf</span>
+        <span class="tparams">[<span name="T0">T0</span>]</span>
+        <span class="result">: <span name="scala.Boolean" class="extype">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>final </dd><dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li visbl="prt" name="net.liftweb.http.CometActor#jsToXmlOrJsCmd" data-isabs="false">
+      <a id="jsToXmlOrJsCmd(JsCmd):RenderOut"></a>
+      <h4 class="signature">
+      <span class="kind">implicit def</span>
+      <span class="symbol"> 
+        <span class="name">jsToXmlOrJsCmd</span>
+        
+        <span class="params">(<span name="in">in: <span name="net.liftweb.http.js.JsCmd" class="extype">JsCmd</span></span>)</span><span class="result">: <span name="net.liftweb.http.RenderOut" class="extype">RenderOut</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected implicit </dd><dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.CometActor#jsonCall" data-isabs="false">
+      <a id="jsonCall:JsonCall"></a>
+      <h4 class="signature">
+      <span class="kind">lazy val</span>
+      <span class="symbol"> 
+        <span class="name">jsonCall</span>
+        
+        <span class="result">: <span name="net.liftweb.http.js.JsonCall" class="extype">JsonCall</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>CometActor → LiftCometActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.CometActor#jsonInCode" data-isabs="false">
+      <a id="jsonInCode:JsCmd"></a>
+      <h4 class="signature">
+      <span class="kind">lazy val</span>
+      <span class="symbol"> 
+        <span class="name">jsonInCode</span>
+        
+        <span class="result">: <span name="net.liftweb.http.js.JsCmd" class="extype">JsCmd</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.CometActor#jsonSend" data-isabs="false">
+      <a id="jsonSend:JsonCall"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">jsonSend</span>
+        
+        <span class="result">: <span name="net.liftweb.http.js.JsonCall" class="extype">JsonCall</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.CometActor#jsonToIncludeInCode" data-isabs="false">
+      <a id="jsonToIncludeInCode:JsCmd"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">jsonToIncludeInCode</span>
+        
+        <span class="result">: <span name="net.liftweb.http.js.JsCmd" class="extype">JsCmd</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.CometActor#lifespan" data-isabs="false">
+      <a id="lifespan:Box[TimeSpan]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">lifespan</span>
+        
+        <span class="result">: <span name="net.liftweb.common.Box" class="extype">Box</span>[<span name="net.liftweb.util.TimeHelpers.TimeSpan" class="extype">TimeSpan</span>]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="prt" name="net.liftweb.http.CometActor#listenerTransition" data-isabs="false">
+      <a id="listenerTransition():Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">listenerTransition</span>
+        
+        <span class="params">()</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="prt" name="net.liftweb.http.CometListener#localSetup" data-isabs="false">
+      <a id="localSetup():Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">localSetup</span>
+        
+        <span class="params">()</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>CometListener → CometActor</dd></dl></div>
+    </li><li visbl="prt" name="net.liftweb.http.CometListener#localShutdown" data-isabs="false">
+      <a id="localShutdown():Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">localShutdown</span>
+        
+        <span class="params">()</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>CometListener → CometActor</dd></dl></div>
+    </li><li visbl="pub" name="ag.bett.lift.bootstrap.comet.UserNotification#lowPriority" data-isabs="false">
+      <a id="lowPriority:PartialFunction[Any, Unit]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">lowPriority</span>
+        
+        <span class="result">: <span name="scala.PartialFunction" class="extype">PartialFunction</span>[<span name="scala.Any" class="extype">Any</span>, <span name="scala.Unit" class="extype">Unit</span>]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="ag.bett.lift.bootstrap.comet.UserNotification" class="extype" href="">UserNotification</a> → CometActor</dd></dl></div>
+    </li><li visbl="prt" name="net.liftweb.http.CometActor#manualWiringDependencyManagement" data-isabs="false">
+      <a id="manualWiringDependencyManagement:Boolean"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">manualWiringDependencyManagement</span>
+        
+        <span class="result">: <span name="scala.Boolean" class="extype">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.CometActor#mediumPriority" data-isabs="false">
+      <a id="mediumPriority:PartialFunction[Any, Unit]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">mediumPriority</span>
+        
+        <span class="result">: <span name="scala.PartialFunction" class="extype">PartialFunction</span>[<span name="scala.Any" class="extype">Any</span>, <span name="scala.Unit" class="extype">Unit</span>]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="prt" name="net.liftweb.http.CometActor#messageHandler" data-isabs="false">
+      <a id="messageHandler:PartialFunction[Any, Unit]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">messageHandler</span>
+        
+        <span class="result">: <span name="scala.PartialFunction" class="extype">PartialFunction</span>[<span name="scala.Any" class="extype">Any</span>, <span name="scala.Unit" class="extype">Unit</span>]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>CometActor → SpecializedLiftActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.util.BindHelpers#mixinAttributes" data-isabs="false">
+      <a id="mixinAttributes(Elem)(NodeSeq):NodeSeq"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">mixinAttributes</span>
+        
+        <span class="params">(<span name="out">out: <span name="scala.xml.Elem" class="extype">Elem</span></span>)</span><span class="params">(<span name="in">in: <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>)</span><span class="result">: <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>BindHelpers</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.CometActor#name" data-isabs="false">
+      <a id="name:Box[String]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">name</span>
+        
+        <span class="result">: <span name="net.liftweb.common.Box" class="extype">Box</span>[String]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>CometActor → LiftCometActor</dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef#ne" data-isabs="false">
+      <a id="ne(AnyRef):Boolean"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">ne</span>
+        
+        <span class="params">(<span name="arg0">arg0: AnyRef</span>)</span><span class="result">: <span name="scala.Boolean" class="extype">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>final </dd><dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li visbl="prt" name="net.liftweb.http.CometActor#nodeSeqFuncToBoxNodeSeq" data-isabs="false">
+      <a id="nodeSeqFuncToBoxNodeSeq((NodeSeq) ⇒ NodeSeq):Box[NodeSeq]"></a>
+      <h4 class="signature">
+      <span class="kind">implicit def</span>
+      <span class="symbol"> 
+        <span class="name">nodeSeqFuncToBoxNodeSeq</span>
+        
+        <span class="params">(<span name="f">f: (<span name="scala.xml.NodeSeq" class="extype">NodeSeq</span>) ⇒ <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>)</span><span class="result">: <span name="net.liftweb.common.Box" class="extype">Box</span>[<span name="scala.xml.NodeSeq" class="extype">NodeSeq</span>]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected implicit </dd><dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.CometActor#nodeSeqToFull" data-isabs="false">
+      <a id="nodeSeqToFull(NodeSeq):Box[NodeSeq]"></a>
+      <h4 class="signature">
+      <span class="kind">implicit def</span>
+      <span class="symbol"> 
+        <span class="name">nodeSeqToFull</span>
+        
+        <span class="params">(<span name="in">in: <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>)</span><span class="result">: <span name="net.liftweb.common.Box" class="extype">Box</span>[<span name="scala.xml.NodeSeq" class="extype">NodeSeq</span>]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>implicit </dd><dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.CometActor#notice" data-isabs="false">
+      <a id="notice(String,String):Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">notice</span>
+        
+        <span class="params">(<span name="id">id: String</span>, <span name="n">n: String</span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.CometActor#notice" data-isabs="false">
+      <a id="notice(String,NodeSeq):Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">notice</span>
+        
+        <span class="params">(<span name="id">id: String</span>, <span name="n">n: <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.CometActor#notice" data-isabs="false">
+      <a id="notice(NodeSeq):Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">notice</span>
+        
+        <span class="params">(<span name="n">n: <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.CometActor#notice" data-isabs="false">
+      <a id="notice(String):Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">notice</span>
+        
+        <span class="params">(<span name="n">n: String</span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef#notify" data-isabs="false">
+      <a id="notify():Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">notify</span>
+        
+        <span class="params">()</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>final </dd><dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef#notifyAll" data-isabs="false">
+      <a id="notifyAll():Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">notifyAll</span>
+        
+        <span class="params">()</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>final </dd><dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li visbl="prt" name="net.liftweb.http.CometActor#nsToNsFuncToRenderOut" data-isabs="false">
+      <a id="nsToNsFuncToRenderOut((NodeSeq) ⇒ NodeSeq):RenderOut"></a>
+      <h4 class="signature">
+      <span class="kind">implicit def</span>
+      <span class="symbol"> 
+        <span class="name">nsToNsFuncToRenderOut</span>
+        
+        <span class="params">(<span name="f">f: (<span name="scala.xml.NodeSeq" class="extype">NodeSeq</span>) ⇒ <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>)</span><span class="result">: <span name="net.liftweb.http.RenderOut" class="extype">RenderOut</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected implicit </dd><dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.CometActor#onJsonError" data-isabs="false">
+      <a id="onJsonError:Box[JsCmd]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">onJsonError</span>
+        
+        <span class="result">: <span name="net.liftweb.common.Box" class="extype">Box</span>[<span name="net.liftweb.http.js.JsCmd" class="extype">JsCmd</span>]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.CometActor#pairToPair" data-isabs="false">
+      <a id="pairToPair((String, Any)):(String, NodeSeq)"></a>
+      <h4 class="signature">
+      <span class="kind">implicit def</span>
+      <span class="symbol"> 
+        <span class="name">pairToPair</span>
+        
+        <span class="params">(<span name="in">in: (String, <span name="scala.Any" class="extype">Any</span>)</span>)</span><span class="result">: (String, <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span>)</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>implicit </dd><dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.CometActor#parentTag" data-isabs="false">
+      <a id="parentTag:Elem"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">parentTag</span>
+        
+        <span class="result">: <span name="scala.xml.Elem" class="extype">Elem</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>CometActor → LiftCometActor</dd></dl></div>
+    </li><li visbl="prt" name="net.liftweb.http.CometActor#partialUpdate" data-isabs="false">
+      <a id="partialUpdate(⇒ JsCmd):Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">partialUpdate</span>
+        
+        <span class="params">(<span name="cmd">cmd: ⇒ <span name="net.liftweb.http.js.JsCmd" class="extype">JsCmd</span></span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.CometActor#poke" data-isabs="false">
+      <a id="poke():Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">poke</span>
+        
+        <span class="params">()</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>CometActor → LiftCometActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.LiftCometActor#predicateChanged" data-isabs="false">
+      <a id="predicateChanged(net.liftweb.util.Cell[_]):Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">predicateChanged</span>
+        
+        <span class="params">(<span name="which">which: net.liftweb.util.Cell[_]</span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>LiftCometActor → Dependent</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.CometActor#reRender" data-isabs="false">
+      <a id="reRender():Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">reRender</span>
+        
+        <span class="params">()</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.CometActor#reRender" data-isabs="false">
+      <a id="reRender(Boolean):Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">reRender</span>
+        
+        <span class="params">(<span name="sendAll">sendAll: <span name="scala.Boolean" class="extype">Boolean</span></span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.CometActor#receiveJson" data-isabs="false">
+      <a id="receiveJson:PartialFunction[JValue, JsCmd]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">receiveJson</span>
+        
+        <span class="result">: <span name="scala.PartialFunction" class="extype">PartialFunction</span>[<span name="net.liftweb.json.JsonAST.JValue" class="extype">JValue</span>, <span name="net.liftweb.http.js.JsCmd" class="extype">JsCmd</span>]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="pub" name="ag.bett.lift.bootstrap.comet.UserNotification#registerWith" data-isabs="false">
+      <a id="registerWith:ag.bett.lift.bootstrap.comet.NotificationCenter.type"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">registerWith</span>
+        
+        <span class="result">: ag.bett.lift.bootstrap.comet.NotificationCenter.type</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="ag.bett.lift.bootstrap.comet.UserNotification" class="extype" href="">UserNotification</a> → CometListener</dd></dl></div>
+    </li><li visbl="pub" name="ag.bett.lift.bootstrap.comet.UserNotification#render" data-isabs="false">
+      <a id="render:RenderOut"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">render</span>
+        
+        <span class="result">: <span name="net.liftweb.http.RenderOut" class="extype">RenderOut</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="ag.bett.lift.bootstrap.comet.UserNotification" class="extype" href="">UserNotification</a> → CometActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.util.BindHelpers#replaceIdNode" data-isabs="false">
+      <a id="replaceIdNode(NodeSeq,String,NodeSeq):NodeSeq"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">replaceIdNode</span>
+        
+        <span class="params">(<span name="in">in: <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>, <span name="id">id: String</span>, <span name="replacement">replacement: <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>)</span><span class="result">: <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>BindHelpers</dd></dl></div>
+    </li><li visbl="prt" name="net.liftweb.actor.LiftActor#reply" data-isabs="false">
+      <a id="reply(Any):Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">reply</span>
+        
+        <span class="params">(<span name="v">v: <span name="scala.Any" class="extype">Any</span></span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>LiftActor → ForwardableActor</dd></dl></div>
+    </li><li visbl="prt" name="net.liftweb.http.CometActor#running" data-isabs="false">
+      <a id="running:Boolean"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">running</span>
+        
+        <span class="result">: <span name="scala.Boolean" class="extype">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.actor.SpecializedLiftActor#send" data-isabs="false">
+      <a id="send(Any):Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">send</span>
+        
+        <span class="params">(<span name="msg">msg: <span name="scala.Any" class="extype">Any</span></span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>SpecializedLiftActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.actor.LiftActor#sendAndGetFuture" data-isabs="false">
+      <a id="sendAndGetFuture(Any):LAFuture[Any]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">sendAndGetFuture</span>
+        
+        <span class="params">(<span name="msg">msg: <span name="scala.Any" class="extype">Any</span></span>)</span><span class="result">: <span name="net.liftweb.actor.LAFuture" class="extype">LAFuture</span>[<span name="scala.Any" class="extype">Any</span>]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>LiftActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.actor.LiftActor#sendAndGetReply" data-isabs="false">
+      <a id="sendAndGetReply(Long,Any):Any"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">sendAndGetReply</span>
+        
+        <span class="params">(<span name="timeout">timeout: <span name="scala.Long" class="extype">Long</span></span>, <span name="msg">msg: <span name="scala.Any" class="extype">Any</span></span>)</span><span class="result">: <span name="scala.Any" class="extype">Any</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>LiftActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.actor.LiftActor#sendAndGetReply" data-isabs="false">
+      <a id="sendAndGetReply(Any):Any"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">sendAndGetReply</span>
+        
+        <span class="params">(<span name="msg">msg: <span name="scala.Any" class="extype">Any</span></span>)</span><span class="result">: <span name="scala.Any" class="extype">Any</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>LiftActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.LiftCometActor#sendInitialReq_?" data-isabs="false">
+      <a id="sendInitialReq_?:Boolean"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">sendInitialReq_?</span>
+        
+        <span class="result">: <span name="scala.Boolean" class="extype">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>LiftCometActor</dd></dl></div>
+    </li><li visbl="prt" name="net.liftweb.http.CometActor#startQuestion" data-isabs="false">
+      <a id="startQuestion(Any):Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">startQuestion</span>
+        
+        <span class="params">(<span name="what">what: <span name="scala.Any" class="extype">Any</span></span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.util.BindHelpers#strToCssBindPromoter" data-isabs="false">
+      <a id="strToCssBindPromoter(String):ToCssBindPromoter"></a>
+      <h4 class="signature">
+      <span class="kind">implicit def</span>
+      <span class="symbol"> 
+        <span class="name">strToCssBindPromoter</span>
+        
+        <span class="params">(<span name="str">str: String</span>)</span><span class="result">: <span name="net.liftweb.util.ToCssBindPromoter" class="extype">ToCssBindPromoter</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>implicit </dd><dt>Definition Classes</dt><dd>BindHelpers</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.util.BindHelpers#strToSuperArrowAssoc" data-isabs="false">
+      <a id="strToSuperArrowAssoc(String):SuperArrowAssoc"></a>
+      <h4 class="signature">
+      <span class="kind">implicit def</span>
+      <span class="symbol"> 
+        <span class="name">strToSuperArrowAssoc</span>
+        
+        <span class="params">(<span name="in">in: String</span>)</span><span class="result">: <span name="net.liftweb.util.BindHelpers.SuperArrowAssoc" class="extype">SuperArrowAssoc</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>implicit </dd><dt>Definition Classes</dt><dd>BindHelpers</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.util.BindHelpers#stripHead" data-isabs="false">
+      <a id="stripHead(NodeSeq):NodeSeq"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">stripHead</span>
+        
+        <span class="params">(<span name="in">in: <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>)</span><span class="result">: <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>BindHelpers</dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef#synchronized" data-isabs="false">
+      <a id="synchronized[T0](⇒ T0):T0"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">synchronized</span>
+        <span class="tparams">[<span name="T0">T0</span>]</span>
+        <span class="params">(<span name="arg0">arg0: ⇒ T0</span>)</span><span class="result">: T0</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>final </dd><dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.util.BindHelpers#template" data-isabs="false">
+      <a id="template(NodeSeq,String,String,String,String):Box[(NodeSeq, NodeSeq, NodeSeq)]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">template</span>
+        
+        <span class="params">(<span name="xhtml">xhtml: <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>, <span name="prefix">prefix: String</span>, <span name="tag1">tag1: String</span>, <span name="tag2">tag2: String</span>, <span name="tag3">tag3: String</span>)</span><span class="result">: <span name="net.liftweb.common.Box" class="extype">Box</span>[(<span name="scala.xml.NodeSeq" class="extype">NodeSeq</span>, <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span>, <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span>)]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>BindHelpers</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.util.BindHelpers#template" data-isabs="false">
+      <a id="template(NodeSeq,String,String,String):Box[(NodeSeq, NodeSeq)]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">template</span>
+        
+        <span class="params">(<span name="xhtml">xhtml: <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>, <span name="prefix">prefix: String</span>, <span name="tag1">tag1: String</span>, <span name="tag2">tag2: String</span>)</span><span class="result">: <span name="net.liftweb.common.Box" class="extype">Box</span>[(<span name="scala.xml.NodeSeq" class="extype">NodeSeq</span>, <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span>)]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>BindHelpers</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.util.BindHelpers#template" data-isabs="false">
+      <a id="template(NodeSeq,String,String):Box[NodeSeq]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">template</span>
+        
+        <span class="params">(<span name="xhtml">xhtml: <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>, <span name="prefix">prefix: String</span>, <span name="tag">tag: String</span>)</span><span class="result">: <span name="net.liftweb.common.Box" class="extype">Box</span>[<span name="scala.xml.NodeSeq" class="extype">NodeSeq</span>]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>BindHelpers</dd></dl></div>
+    </li><li visbl="prt" name="net.liftweb.actor.LiftActor#testTranslate" data-isabs="false">
+      <a id="testTranslate((Any) ⇒ Boolean)(Any):Boolean"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">testTranslate</span>
+        
+        <span class="params">(<span name="f">f: (<span name="scala.Any" class="extype">Any</span>) ⇒ <span name="scala.Boolean" class="extype">Boolean</span></span>)</span><span class="params">(<span name="v">v: <span name="scala.Any" class="extype">Any</span></span>)</span><span class="result">: <span name="scala.Boolean" class="extype">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>LiftActor → SpecializedLiftActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.CometActor#theSession" data-isabs="false">
+      <a id="theSession:LiftSession"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">theSession</span>
+        
+        <span class="result">: <span name="net.liftweb.http.LiftSession" class="extype">LiftSession</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.CometActor#theType" data-isabs="false">
+      <a id="theType:Box[String]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">theType</span>
+        
+        <span class="result">: <span name="net.liftweb.common.Box" class="extype">Box</span>[String]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>CometActor → LiftCometActor</dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef#toString" data-isabs="false">
+      <a id="toString():String"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">toString</span>
+        
+        <span class="params">()</span><span class="result">: <span name="java.lang.String" class="extype">String</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.CometActor#unWatch" data-isabs="false">
+      <a id="unWatch:Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">unWatch</span>
+        
+        <span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.CometActor#uniqueId" data-isabs="false">
+      <a id="uniqueId:String"></a>
+      <h4 class="signature">
+      <span class="kind">val</span>
+      <span class="symbol"> 
+        <span class="name">uniqueId</span>
+        
+        <span class="result">: String</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>CometActor → LiftCometActor</dd></dl></div>
+    </li><li visbl="prt" name="net.liftweb.util.Dependent#unregisterFromAllDepenencies" data-isabs="false">
+      <a id="unregisterFromAllDepenencies():Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">unregisterFromAllDepenencies</span>
+        
+        <span class="params">()</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>Dependent</dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef#wait" data-isabs="false">
+      <a id="wait():Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">wait</span>
+        
+        <span class="params">()</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>final </dd><dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef#wait" data-isabs="false">
+      <a id="wait(Long,Int):Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">wait</span>
+        
+        <span class="params">(<span name="arg0">arg0: <span name="scala.Long" class="extype">Long</span></span>, <span name="arg1">arg1: <span name="scala.Int" class="extype">Int</span></span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>final </dd><dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef#wait" data-isabs="false">
+      <a id="wait(Long):Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">wait</span>
+        
+        <span class="params">(<span name="arg0">arg0: <span name="scala.Long" class="extype">Long</span></span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>final </dd><dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.CometActor#warning" data-isabs="false">
+      <a id="warning(String,String):Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">warning</span>
+        
+        <span class="params">(<span name="id">id: String</span>, <span name="n">n: String</span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.CometActor#warning" data-isabs="false">
+      <a id="warning(String,NodeSeq):Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">warning</span>
+        
+        <span class="params">(<span name="id">id: String</span>, <span name="n">n: <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.CometActor#warning" data-isabs="false">
+      <a id="warning(NodeSeq):Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">warning</span>
+        
+        <span class="params">(<span name="n">n: <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.http.CometActor#warning" data-isabs="false">
+      <a id="warning(String):Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">warning</span>
+        
+        <span class="params">(<span name="n">n: String</span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>CometActor</dd></dl></div>
+    </li><li visbl="prt" name="net.liftweb.util.Dependent#whoDoIDependOn" data-isabs="false">
+      <a id="whoDoIDependOn:Seq[net.liftweb.util.Cell[_]]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">whoDoIDependOn</span>
+        
+        <span class="result">: Seq[net.liftweb.util.Cell[_]]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>Dependent</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.util.BindHelpers#xmlParam" data-isabs="false">
+      <a id="xmlParam(NodeSeq,String):Box[String]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">xmlParam</span>
+        
+        <span class="params">(<span name="in">in: <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>, <span name="param">param: String</span>)</span><span class="result">: <span name="net.liftweb.common.Box" class="extype">Box</span>[String]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>BindHelpers</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.util.Dependent#youDependOnMe" data-isabs="false">
+      <a id="youDependOnMe(net.liftweb.util.Cell[_]):Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">youDependOnMe</span>
+        
+        <span class="params">(<span name="who">who: net.liftweb.util.Cell[_]</span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Dependent</dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.util.Dependent#youDontDependOnMe" data-isabs="false">
+      <a id="youDontDependOnMe(net.liftweb.util.Cell[_]):Unit"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name">youDontDependOnMe</span>
+        
+        <span class="params">(<span name="who">who: net.liftweb.util.Cell[_]</span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Dependent</dd></dl></div>
+    </li></ol>
+            </div>
+
+        <div class="values members" id="values">
+              <h3>Deprecated Value Members</h3>
+              <ol><li visbl="pub" name="net.liftweb.http.CometActor#defaultXml" data-isabs="false">
+      <a id="defaultXml:NodeSeq"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name deprecated">defaultXml</span>
+        
+        <span class="result">: <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>CometActor</dd><dt>Annotations</dt><dd>
+                <span class="name">@deprecated</span>
+              
+        </dd><dt>Deprecated</dt><dd class="cmt"><p>Use defaultHtml</p></dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.util.BindHelpers#processBind" data-isabs="false">
+      <a id="processBind(NodeSeq,Map[String, NodeSeq]):NodeSeq"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name deprecated">processBind</span>
+        
+        <span class="params">(<span name="around">around: <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>, <span name="atWhat">atWhat: Map[String, <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span>]</span>)</span><span class="result">: <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>BindHelpers</dd><dt>Annotations</dt><dd>
+                <span class="name">@deprecated</span>
+              
+        </dd><dt>Deprecated</dt><dd class="cmt"><p>use the bind function instead</p></dd></dl></div>
+    </li><li visbl="prt" name="net.liftweb.http.CometListener#shouldUpdate" data-isabs="false">
+      <a id="shouldUpdate:PartialFunction[Any, Boolean]"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name deprecated">shouldUpdate</span>
+        
+        <span class="result">: <span name="scala.PartialFunction" class="extype">PartialFunction</span>[<span name="scala.Any" class="extype">Any</span>, <span name="scala.Boolean" class="extype">Boolean</span>]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected </dd><dt>Definition Classes</dt><dd>CometListener</dd><dt>Annotations</dt><dd>
+                <span class="name">@deprecated</span>
+              
+        </dd><dt>Deprecated</dt><dd class="cmt"><p>Accept/reject logic should be done in the partial function that handles the message.</p></dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.util.BindHelpers#strToBPAssoc" data-isabs="false">
+      <a id="strToBPAssoc(String):BindParamAssoc"></a>
+      <h4 class="signature">
+      <span class="kind">implicit def</span>
+      <span class="symbol"> 
+        <span class="name deprecated">strToBPAssoc</span>
+        
+        <span class="params">(<span name="in">in: String</span>)</span><span class="result">: <span name="net.liftweb.util.BindHelpers.BindParamAssoc" class="extype">BindParamAssoc</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>implicit </dd><dt>Definition Classes</dt><dd>BindHelpers</dd><dt>Annotations</dt><dd>
+                <span class="name">@deprecated</span>
+              
+        </dd><dt>Deprecated</dt><dd class="cmt"><p>use -&gt; instead</p></dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.util.BindHelpers#symToBPAssoc" data-isabs="false">
+      <a id="symToBPAssoc(Symbol):BindParamAssoc"></a>
+      <h4 class="signature">
+      <span class="kind">implicit def</span>
+      <span class="symbol"> 
+        <span class="name deprecated">symToBPAssoc</span>
+        
+        <span class="params">(<span name="in">in: <span name="scala.Symbol" class="extype">Symbol</span></span>)</span><span class="result">: <span name="net.liftweb.util.BindHelpers.BindParamAssoc" class="extype">BindParamAssoc</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>implicit </dd><dt>Definition Classes</dt><dd>BindHelpers</dd><dt>Annotations</dt><dd>
+                <span class="name">@deprecated</span>
+              
+        </dd><dt>Deprecated</dt><dd class="cmt"><p>use -&gt; instead</p></dd></dl></div>
+    </li><li visbl="pub" name="net.liftweb.util.BindHelpers#xbind" data-isabs="false">
+      <a id="xbind(String,NodeSeq)(PartialFunction[String, (NodeSeq) ⇒ NodeSeq]):NodeSeq"></a>
+      <h4 class="signature">
+      <span class="kind">def</span>
+      <span class="symbol"> 
+        <span class="name deprecated">xbind</span>
+        
+        <span class="params">(<span name="namespace">namespace: String</span>, <span name="xml">xml: <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>)</span><span class="params">(<span name="transform">transform: <span name="scala.PartialFunction" class="extype">PartialFunction</span>[String, (<span name="scala.xml.NodeSeq" class="extype">NodeSeq</span>) ⇒ <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span>]</span>)</span><span class="result">: <span name="scala.xml.NodeSeq" class="extype">NodeSeq</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>BindHelpers</dd><dt>Annotations</dt><dd>
+                <span class="name">@deprecated</span>
+              
+        </dd><dt>Deprecated</dt><dd class="cmt"><p>use bind instead</p></dd></dl></div>
+    </li></ol>
+            </div>
+
+        <div name="net.liftweb.http.CometListener" class="parent">
+              <h3>Inherited from <span name="net.liftweb.http.CometListener" class="extype">CometListener</span></h3>
+            </div><div name="net.liftweb.http.CometActor" class="parent">
+              <h3>Inherited from <span name="net.liftweb.http.CometActor" class="extype">CometActor</span></h3>
+            </div><div name="net.liftweb.util.BindHelpers" class="parent">
+              <h3>Inherited from <span name="net.liftweb.util.BindHelpers" class="extype">BindHelpers</span></h3>
+            </div><div name="net.liftweb.http.LiftCometActor" class="parent">
+              <h3>Inherited from <span name="net.liftweb.http.LiftCometActor" class="extype">LiftCometActor</span></h3>
+            </div><div name="net.liftweb.util.Dependent" class="parent">
+              <h3>Inherited from <span name="net.liftweb.util.Dependent" class="extype">Dependent</span></h3>
+            </div><div name="net.liftweb.actor.LiftActor" class="parent">
+              <h3>Inherited from <span name="net.liftweb.actor.LiftActor" class="extype">LiftActor</span></h3>
+            </div><div name="net.liftweb.common.ForwardableActor" class="parent">
+              <h3>Inherited from <span name="net.liftweb.common.ForwardableActor" class="extype">ForwardableActor</span>[<span name="scala.Any" class="extype">Any</span>, <span name="scala.Any" class="extype">Any</span>]</h3>
+            </div><div name="net.liftweb.common.GenericActor" class="parent">
+              <h3>Inherited from <span name="net.liftweb.common.GenericActor" class="extype">GenericActor</span>[<span name="scala.Any" class="extype">Any</span>]</h3>
+            </div><div name="net.liftweb.common.TypedActor" class="parent">
+              <h3>Inherited from <span name="net.liftweb.common.TypedActor" class="extype">TypedActor</span>[<span name="scala.Any" class="extype">Any</span>, <span name="scala.Any" class="extype">Any</span>]</h3>
+            </div><div name="net.liftweb.actor.SpecializedLiftActor" class="parent">
+              <h3>Inherited from <span name="net.liftweb.actor.SpecializedLiftActor" class="extype">SpecializedLiftActor</span>[<span name="scala.Any" class="extype">Any</span>]</h3>
+            </div><div name="net.liftweb.common.SimpleActor" class="parent">
+              <h3>Inherited from <span name="net.liftweb.common.SimpleActor" class="extype">SimpleActor</span>[<span name="scala.Any" class="extype">Any</span>]</h3>
+            </div><div name="scala.AnyRef" class="parent">
+              <h3>Inherited from AnyRef</h3>
+            </div><div name="scala.Any" class="parent">
+              <h3>Inherited from <span name="scala.Any" class="extype">Any</span></h3>
+            </div>
+
+      </div>
+      
+      <div id="tooltip"></div>
+      
+    </body>
+      </html>
