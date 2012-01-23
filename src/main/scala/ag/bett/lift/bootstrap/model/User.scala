@@ -62,13 +62,17 @@ with MetaMegaProtoUser[User] {
 
 	override def skipEmailValidation = true
 
-	def login(login: String, pass: String): Boolean =
+	def login(login: String, pass: String): Boolean = try {
 		getSingleton.find(By(getSingleton.email, login)) match {
+			//case Full(u: User) if u.password.match_?(pass) && u.validated.is && u.active.is && u.customer.obj.open_!.active.is =>
 			case Full(u: User) if u.password.match_?(pass) && u.validated.is && u.active.is =>
 				getSingleton.logUserIn(u)
 				true
 			case _ => false
 		}
+	} catch {
+		case _ => false
+	}
 
 	def can_?(roles: Role.Value*) =
 		User.currentUser match {
