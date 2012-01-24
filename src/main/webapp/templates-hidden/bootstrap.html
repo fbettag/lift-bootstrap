@@ -22,6 +22,7 @@
 		<script src="/ui/jquery/third-party/jQuery-UI-Date-Range-Picker/js/daterangepicker.jQuery.compressed.js" type="text/javascript"></script>
 		<script src="/ui/gritter/jquery.gritter.js" type="text/javascript"></script>
 		<script src="/ui/bootstrap/bootstrap.js" type="text/javascript"></script>
+		<script src="/ui/lift-bootstrap/lift-bootstrap.js" type="text/javascript" charset="utf-8"></script>
 		<script src="/classpath/json.js" type="text/javascript" charset="utf-8" id="json"></script>
 
 		<link href="/ui/lift-bootstrap/lift-bootstrap.css" rel="stylesheet"/>
@@ -77,7 +78,7 @@
 						<p class="pull-right">Logged in as</p>
 					</lift:Users.isloggedin>
 
-					<span lift="Users.isnotloggedin">
+					<lift:Users.isnotloggedin>
 						<form action="/" class="pull-right" lift="Users.login">
 							<input id="login_user" class="input-small" type="email" placeholder="E-Mail">
 							<input id="login_pass" class="input-small" type="password" placeholder="Password">
@@ -87,7 +88,7 @@
 						<div class="pull-right alert-message error loginerror">
 							<p><strong><lift:loc locid="login.failed">Login failed!</lift:loc></strong> Username or Password incorrect.</p>
 						</div>
-					</span>
+					</lift:Users.isnotloggedin>
 
 				</div>
 			</div>
