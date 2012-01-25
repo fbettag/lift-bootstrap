@@ -78,7 +78,7 @@ class Users extends Loggable {
 	}
 	
 	private val loginJsSubmit = JsRaw("""($('#login_user').val() + '--## ##--' + $('#login_pass').val()).replace('\"|\'', '')""")
-	def login = "form [onsubmit]" #> SHtml.ajaxCall(loginJsSubmit, jsLogin)._2.toJsCmd
+	def login = "form [onsubmit]" #> (SHtml.ajaxCall(loginJsSubmit, jsLogin)._2 & JsRaw("return false")).toJsCmd
 
 	private def makeSuper: JsCmd = User.currentUser match {
 		case Full(u) =>
