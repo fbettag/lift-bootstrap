@@ -46,6 +46,7 @@ class Customer
 		override def dbNotNull_? = true
 		override def dbIndexed_? = true
 		override def setFilter = trim _ :: super.setFilter
+		override def defaultValue = ""
 		override def validations =
 			valUnique(S.??("name.taken")) _ ::
 			valMinLen(5, S.??("name.too.short")) _ ::
@@ -55,6 +56,7 @@ class Customer
 
 	object nameadd extends MappedString(this, 120) {
 		override def dbIndexed_? = true
+		override def defaultValue = ""
 		override def setFilter = trim _ :: super.setFilter
 	}
 
