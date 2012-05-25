@@ -62,7 +62,7 @@ class CustomerForm(customer: Customer) {
 		".customer_country" #>				customer.country.toAjaxForm &
 		".customer_company" #>				BHtml.checkbox[Long, Customer](customer.company) &
 		".customer_active" #>				BHtml.checkbox[Long, Customer](customer.active) &
-		".customer_save [onclick]" #>		BHtml.save[Long, Customer](customer, () => RedirectTo("/customers")) &
+		".customer_save [onclick]" #>		BHtml.save[Long, Customer](customer, () => RedirectTo("/customers")).toString &
 		".customer_reset [onclick]" #>		BHtml.reset[Long, Customer](customer)
 
 }
